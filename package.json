@@ -1,9 +1,12 @@
 {
-  "name": "ycloud-whatsapp-mcp-server",
+  "name": "@iflow-mcp/ycloud-whatsapp-mcp-server",
   "version": "0.1.0",
   "description": "YCloud WhatsApp API MCP Server",
   "main": "build/index.js",
   "type": "module",
+  "bin": {
+    "ycloud-whatsapp-mcp-server": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
